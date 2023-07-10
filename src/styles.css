@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+td,
+th {
+  padding: 8px;
+}
+
+th {
+  background-color: #04aa6d;
+}
+
+tr:nth-child(even) {
+  background-color: #cfc9c9;
+}
+
+.search-box {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-label {
+  padding-right: 10px;
+}
